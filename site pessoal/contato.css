@@ -1,0 +1,101 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #b63333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header nav a.active {
+    color: #ccc;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .contato h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contato p {
+    margin-bottom: 40px;
+  }
+  
+  .contato form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(5, 1, 1, 0.342);
+  }
+  
+  .contato form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contato form input, .contato form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .contato form input[type="submit"] {
+    background-color: #b63333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contato form input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .mapa {
+    width: 100%;
+    height: 300px;
+    border: 1
+    }

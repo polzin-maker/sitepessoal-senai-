@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comprar Café, Sucos, Vitaminas, Sanduíches, Saladas e Sobremesa</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Cafeteria Digital</h1>
+	</header>
+	<main>
+		<section id="comprar-produtos">
+			<h2>Comprar Produtos</h2>
+			<form>
+				<div class="produto">
+					<h3>Café:</h3>
+					<select id="cafe" name="cafe">
+						<option value="">Selecione uma opção</option>
+						<option value="Espresso">Espresso - R$ 4,00</option>
+						<option value="Cappuccino">Cappuccino - R$ 5,50</option>
+						<option value="cafe-com-leite">Latte - R$ 5,00</option>
+					</select>
+					<h3>Quantidade:</h3>
+					<input type="number" id="quantidade-cafe" name="quantidade-cafe" min="1" max="10" value="1">
+				</div>
+				<div class="produto">
+					<h3>Suco:</h3>
+					<select id="suco" name="suco">
+						<option value="">Selecione uma opção</option>
+						<option value="suco-de-laranja">Suco de Laranja - R$ 6,00</option>
+						<option value="suco-de-maca">Suco de Maçã - R$ 6,50</option>
+						<option value="suco-de-abacaxi">Suco de Abacaxi - R$ 7,00</option>
+					</select>
+					<h3>Quantidade:</h3>
+					<input type="number" id="quantidade-suco" name="quantidade-suco" min="1" max="10" value="1">
+				</div>
+				<div class="produto">
+					<h3>Vitamina:</h3>
+					<select id="vitamina" name="vitamina">
+						<option value="">Selecione uma opção</option>
+						<option value="vitamina-c">Vitamina abacate- R$ 10,00</option>
+						<option value="vitamina-d">Vitamina banana - R$ 12,00</option>
+						<option value="vitamina-b12">Vitamina morango - R$ 15,00</option>
+					</select>
+					<h3>Quantidade:</h3>
+					<input type="number" id="quantidade-vitamina" name="quantidade-vitamina" min="1" max="10" value="1">
+				</div>
+				<div class="produto">
+					<h3>Sanduíche:</h3>
+					<select id="sanduiche" name="sanduiche">
+						<option value="">Selecione uma opção</option>
+						<option value="sanduiche-de-frango">Sanduíche de Frango - R$ 12,00</option>
+						<option value="sanduiche-de-carne">Sanduíche de Carne - R$ 15,00</option>
+						<option value="sanduiche-de-queijo">Sanduíche de Queijo - R$ 10,00</option>
+					</select>
+					<h3>Quantidade:</h3>
+					<input type="number" id="quantidade-sanduiche" name="quantidade-sanduiche" min="1" max="10" value="1">
+				</div>
+				<div class="produto">
+					<h3>Salada:</h3>
+					<select id="salada" name="salada">
+						<option value="">Selecione uma opção</option>
+						<option value="salada-de-frutas">Salada de Frutas - R$ 8,00</option>
+						<option value="salada-de-verduras">Salada de Verduras - R$ 10,00</option>
+						<option value="salada-de-graos">Salada de atum - R$ 12,00</option>
+					</select>
+					<h3>Quantidade:</h3>
+                    <input type="number" id="quantidade-sanduiche" name="quantidade-sanduiche" min="1" max="10" value="1">
+                    <h2>Selecione o método de pagamento</h2>
+            <ul>
+                <li>
+                    <input type="radio" id="payment-1" name="payment" value="Cartão de Crédito">
+                    <label for="payment-1">Cartão de Crédito</label>
+                </li>
+                <li>
+                    <input type="radio" id="payment-1" name="payment" value="Cartão de Crédito">
+                    <label for="payment-1">Cartão de debito</label>
+                </li>
+                <li>
+                    <input type="radio" id="payment-1" name="payment" value="Cartão de Crédito">
+                    <label for="payment-1">Pix</label>
+                </li>
+                <li>
+                    <input type="radio" id="payment-2" name="payment" value="Dinheiro">
+                    <label for="payment-2">Dinheiro</label>
+                </li>
+            </ul>
+        </section>
+        <section id="total">
+            <h2>Total</h2>
+            <p id="total-amount">R$ 0,00</p>
+        </section>
+        <button class="botao" button type="button" onclick="window.location.href='carrinho.html'">
+			Comprar</button>
+    </main>
+    <footer>
+        <p>&copy; 2023 Cafeteria Delícia. Todos os direitos reservados.</p>
+		
